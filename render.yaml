@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: docker
+    name: nginx-reverse-proxy
+    image:
+      url: nginxproxy/nginx-proxy
